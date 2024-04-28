@@ -1,0 +1,310 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+
+.top-part{
+    background-color: #434CCC;
+}
+.navbar{
+    display: flex;
+}
+.logo>h3{
+    width: 268px;
+    height: 233px;
+    padding: 16px 31px 169px 135px;
+
+    /* border: 1px solid red; */
+    font-family: DM Serif Display;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 71px;
+
+}
+
+.nav-content{
+    width: 324px;
+    height: 24px;
+
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+
+    margin-top: 28px;
+    margin-left: 503px;
+
+
+}
+
+.navbar>button{
+    width: 170px;
+    height: 48px;
+    margin-top: 16px;
+    margin-left: 40px;
+    background-color: #434CCC;
+    border: 0.1px solid #727272;
+    border-radius: 5px;
+    font-family: DM Sans;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    
+
+
+}
+
+.nav-text>h1{
+    font-family: "DM Serif Display";
+    font-size: 72px;
+    line-height: 80px;
+    text-align: center;
+    margin-top: -171px;
+
+}
+
+.nav-text>p{
+    font-family: DM Sans;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    padding-bottom: 55px;
+
+}
+
+.sec2-img1{
+    width: 1170px;
+    height: 640px;
+    margin: auto;
+    margin-top: 64px;
+    position: relative;
+
+}
+
+.circle{
+    width: 108px;
+    height: 108px;
+    border: 2px solid #FFFFFF;
+    
+    opacity: 10.28%;
+
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    position: absolute;
+    top:266px;
+    left:531px;
+}
+
+.oval{
+    width: 27px;
+    height: 39px;
+
+    /* background: #FFFFFF; */
+
+    position: absolute;
+    top: 301px;
+    left: 572px;
+
+}
+
+
+.third-part{
+    width: 1170px;
+    height: 640px;
+    
+    margin: auto;
+    
+}
+
+.form{
+    border: 1px solid red;
+}
+
+.msg-text>h2{
+    font-family: DM Serif Display;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: left;
+    color: #000000;
+    margin-top: 60px;
+
+}
+
+.top{
+    display: flex;
+    
+
+}
+.top>input:first-child{
+    width: 401px;
+    height: 48px;
+    margin-top: 28px;
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    font-family: DM Sans;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+    padding: 15px;
+
+
+}
+
+.top>input:last-child{
+    margin-left: 33px;
+    width: 401px;
+    height: 48px;
+    margin-top: 28px;
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    font-family: DM Sans;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+    padding: 15px;
+}
+.form>input{
+    width: 834px;
+    height: 172px;
+    padding: 15px;
+    margin-top: 28px;
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    font-family: DM Sans;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+
+}
+
+.form>div:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 48px;
+    background-color: #434CCC;
+    margin-top: 46px;
+    border-radius: 5px;
+    
+
+}
+.form>div:last-child>button{
+    background-color: #434CCC;
+    border: none;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+.info{
+    margin-top: 60px;
+}
+
+.info-text>h2{
+
+    font-family: DM Serif Display;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: left;
+    color: #000000;
+
+}
+.last{
+    width: 1440px;
+    /* height: 352px; */
+    margin: auto;
+    display: flex;
+    background-color: #FFDD78;
+}
+.text{
+    margin-left: 135px;
+}
+.pericula-text{
+    margin-top: 79px;
+    
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3em;
+    text-align: left;
+    color: #000000;
+
+
+}
+.bio{
+    width: 516px;
+    height: 128px;
+    margin-bottom: 100px;
+    
+
+}
+.bio>h2{
+    margin-top: 21px;
+    
+    font-family: DM Serif Display;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: left;
+    color: #000000;
+}
+
+.inp>input{
+    margin-top: 160px;
+    margin-left: 84px;
+    width: 370px;
+    height: 48px;
+    top: 28px;
+    border: 1px;
+    padding: 15px;
+
+}
+
+.sub-btn{
+    margin-top: 160px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 48px;
+    background-color: #434CCC;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.sub-btn>button{
+     
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    background-color: #434CCC;
+    border: none;
+
+}
